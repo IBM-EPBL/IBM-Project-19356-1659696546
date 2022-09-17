@@ -1,0 +1,26 @@
+.align{
+  text-align: center;
+}
+
+.bg{
+    background-color: aliceblue;
+    width:800px;
+    height:1200px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+hr{
+    border-color: rgb(72, 177, 238);
+}
+
+h3, h1{
+    color:rgb(20, 113, 167) ;
+}
+
+.marg{
+    margin-inline-start: 10px;
+}
