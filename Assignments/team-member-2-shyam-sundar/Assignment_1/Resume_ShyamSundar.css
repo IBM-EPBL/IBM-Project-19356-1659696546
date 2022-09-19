@@ -1,41 +1,81 @@
 body {
-    width: 800px;
-    background-color: #c5cecd;
-    width: 800px;
-    height: 1200px;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding-left: 50px;
-    padding-top: 10px;
-    padding-right: 50px;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+section {
+    background-color: rgb(250, 195, 195);
+    display: inline-block;
+    position: relative;
+    top: -32px;
+    padding: 30px;
+
+}
+
+main {
+    background-color: rgb(227, 233, 233);
+    padding: 30px;
+    position: relative;
+    bottom: 1200px;
+    left: 345px;
+    width: 75%;
 }
 
 header {
-    
-    width: 100%;
     background-color: #0f0e0e;
-    width: 100%;
-    top: 0;
-    left: 0;
+
+}
+
+h1 {
+    font-size: 2em;
+    top: 50px;
+}
+
+p,
+h2,
+h3,
+span {
+    font-size: 2em;
+}
+
+span.project {
+    font-size: 1em;
+    font-weight: bold;
 }
 
 header p,
 h1,
-h2 {
+header h2 {
     color: white;
     text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: -150px;
 
 }
 
-header.shyam {
+header p {
+    line-height: 0.60em;
+}
 
-    top: 0;
-    left: 0;
-    border-radius: 200px;
+header h2.design,
+header h1 {
+    font-size: 3em;
+
+}
+
+img.shyamm {
+    position: relative;
+    top: 150px;
+    left: 100px;
+    border-radius: 100px;
     max-width: 35%;
+
 }
 
-header.gmail {
-    top: 0;
-    right: 0;
+img.gmail {
+    position: absolute;
+    top: 150px;
+    right: 550px;
 }
