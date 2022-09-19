@@ -1,0 +1,49 @@
+body {
+    
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+section {
+    background-color: rgb(149, 134, 230);
+    display: inline-block;
+    position: relative;
+    top: 68px;
+    padding: 30px;
+    padding-bottom:100px ;
+}
+
+main {
+    background-color: rgb(236, 183, 236);
+    padding: 30px;
+    position: relative;
+    bottom: 668px;
+    left: 300px;
+    width: 75%;
+}
+
+header {
+    padding-top: 30px;
+    background-color: rgb(70, 9, 70);
+    position: relative;
+    top: 100px;
+    width: 965px;
+}
+header h1,header p{
+    text-align: center;
+    color: white;
+}
+
+div.edu{
+    line-height: 0.5em;
+}
+
+h1 {
+    
+    top: 50px;
+}
+
+
+div .caps {
+    font-weight: bold;
+}
