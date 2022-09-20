@@ -1,49 +1,56 @@
-body {
-    
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-section {
-    background-color: rgb(149, 134, 230);
+.align{
+    background-image: url("Banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  img{
+      position: relative;
+      top: -20px;
+      left: 525px;
+      border: white 2px solid ;
+  }
+  
+  .bg{
+      background-color: rgb(240, 238, 255);
+      width:800px;
+      height:1200px;
+      margin-left: 25%;
+      margin-right: 25%;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  
+  hr{
+      border-color: rgb(72, 177, 238);
+  }
+  
+  h3{
+      color:rgb(20, 113, 167) ;
+  }
+  
+  h1{
+      color: rgb(11, 64, 133);
+      position:relative;
+      left: 200px;
+      top: 75px;
+  }
+  
+  .marg{
+      margin-inline-start: 10px;
+  }
+  
+  .p-align{
+      color: rgb(5, 43, 94);
+      position:relative;
+      left: 205px;
+      top: 75px;
+  }
+  section {
+    background-color: rgba(248, 248, 248, 0);
     display: inline-block;
     position: relative;
-    top: 68px;
-    padding: 30px;
-    padding-bottom:100px ;
-}
-
-main {
-    background-color: rgb(236, 183, 236);
-    padding: 30px;
-    position: relative;
-    bottom: 668px;
-    left: 300px;
-    width: 75%;
-}
-
-header {
-    padding-top: 30px;
-    background-color: rgb(70, 9, 70);
-    position: relative;
-    top: 100px;
-    width: 965px;
-}
-header h1,header p{
-    text-align: center;
-    color: white;
-}
-
-div.edu{
-    line-height: 0.5em;
-}
-
-h1 {
-    
-    top: 50px;
-}
-
-
-div .caps {
-    font-weight: bold;
-}
+    top: -600px;
+    padding-left: 600px;
+    padding-right: 30px;
+  }
