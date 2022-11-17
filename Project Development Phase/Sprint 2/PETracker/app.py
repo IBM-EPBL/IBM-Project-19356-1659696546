@@ -3,7 +3,8 @@ import ibm_db
 import jinja2
 import re
 from markupsafe import escape
-conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=ea286ace-86c7-4d5b-8580-3fbfa46b1c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=31505;SECURITY=SSL;SSLServerCertificate=./DigiCertGlobalRootCA.crt;UID=ysy09691;PWD=wRGtNb3HWCEu0j4T",'','')
+conn = ibm_db.connect("DATABASE=<databasename>;HOSTNAME=<your-hostname>;PORT=<portnumber>;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=<username>;PWD=<password>",'','')
+
 global total
 
 global t_food 
