@@ -209,10 +209,10 @@ def history():
     alert=int(limit[0])-total
     print(alert)
     if alert<=0:
-        sender_email="jayaprakash291029@gmail.com"
+        sender_email="shyamsundar.g.2019.ece@rajalakshmi.edu.in"
         rec_email=session['username']
-        password='xtbrhwpqbdbxyjir'
-        message='ALERT MESSAGE FROM EXPENSE TRACKER !PLEASE CHECK YOUR DAILY EXPENSE YOUR DAILY EXPENSE IS CROSS YOUR MONTHLY LIMIT. UPDATE YOUR MONTHLY LIMIT AND AVOID YOUR UNWANTED DAILY EXPENSE'
+        password='tsewpfbefdjmqstk'
+        message='ALERT MESSAGE FROM EXPENSE TRACKER !PLEASE CHECK  YOUR DAILY EXPENSE YOUR DAILY EXPENSE IS CROSS YOUR MONTHLY LIMIT. UPDATE YOUR MONTHLY LIMIT AND AVOID YOUR UNWANTED DAILY EXPENSE'
         # soup=BeautifulSoup(html_data,'html.parser')      
         print(message)
         server=smtplib.SMTP('smtp.gmail.com',587)
@@ -220,9 +220,8 @@ def history():
         server.login(sender_email,password)
         print("login successfully")
         server.sendmail(sender_email,rec_email,message)
-        print("emaail has been sent successfully")
+        print("emaail has been sende successfully")
    
-
     if expense:
         # return redirect("/sendgrid/{{expense}}")
         return render_template("display.html",expense=expense, total = total ,
